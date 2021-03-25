@@ -17,7 +17,7 @@ const PORT = process.env.PORT || "2021";
 const app = express();
 
 ////// Setup the View Engine //////
-app.set("view emgine", "ejs");
+app.set("view engine", "ejs");
 
 ////// Setup Middleware //////
 app.use(cors()); // prevent cors errors
